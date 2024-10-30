@@ -6,7 +6,7 @@ import copy
 
 DEFAULT_RPCS = {
     "1": {
-        "rpc": "https://multi-thrilling-shadow.quiknode.pro/299a9fbfa422e32543cec418b7f021415f55da9a",
+        "rpc": "https://mainnet.infura.io/v3/19ff564de2494bf3a05f73de5ee66dd0",
         "fallbackRPCs": [
             "https://rpc.ankr.com/eth",
             "https://ethereum-rpc.publicnode.com",
@@ -17,7 +17,7 @@ DEFAULT_RPCS = {
         "chunkSize": 100
     },
     "10": {
-        "rpc": "https://withered-lively-moon.optimism.quiknode.pro/f4afb53385112ed41b4a8a68c306843f98698452",
+        "rpc": "https://optimism-mainnet.infura.io/v3/19ff564de2494bf3a05f73de5ee66dd0",
         "fallbackRPCs": [
             "https://mainnet.optimism.io",
             "https://rpc.ankr.com/optimism",
@@ -32,7 +32,7 @@ DEFAULT_RPCS = {
         "fallbackRPCs": [
             "https://polygon-mainnet.public.blastapi.io",
             "https://polygon-rpc.com",
-            "https://rpc.ankr.com/polygon"
+            "https://polygon.llamarpc.com"
         ],
         "chainId": 137,
         "network": "polygon",
