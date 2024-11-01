@@ -28,7 +28,7 @@ DEFAULT_RPCS = {
         "chunkSize": 100
     },
     "137": {
-        "rpc": "https://polygon-mainnet.infura.io/v3/aa5819408c9f44029ae12d50d0a737cb",
+        "rpc": "https://polygon-mainnet.infura.io/v3/19ff564de2494bf3a05f73de5ee66dd0",
         "fallbackRPCs": [
             "https://polygon-mainnet.infura.io/v3/abb07c1db4584278920329997b99c584",
             "https://polygon-mainnet.g.alchemy.com/v2/FuB1I6CSbhXOS5ceLAKMV2RfDIXRLxlJ",
