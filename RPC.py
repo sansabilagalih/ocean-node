@@ -6,10 +6,10 @@ import copy
 
 DEFAULT_RPCS = {
     "1": {
-        "rpc": "https://mainnet.infura.io/v3/055190f3056a451b8f41efdd1aed0ad2",
+        "rpc": "https://mainnet.infura.io/v3/19ff564de2494bf3a05f73de5ee66dd0",
         "fallbackRPCs": [
+            "https://mainnet.infura.io/v3/055190f3056a451b8f41efdd1aed0ad2",
             "https://eth-mainnet.g.alchemy.com/v2/FuB1I6CSbhXOS5ceLAKMV2RfDIXRLxlJ",
-            "https://mainnet.infura.io/v3/19ff564de2494bf3a05f73de5ee66dd0",
             "https://ethereum-rpc.publicnode.com"
         ],
         "chainId": 1,
@@ -19,18 +19,18 @@ DEFAULT_RPCS = {
     "10": {
         "rpc": "https://optimism-mainnet.infura.io/v3/b8a1e16261dc48ccb05fd2e1ee5e47a2",
         "fallbackRPCs": [
+            "https://optimism-mainnet.infura.io/v3/aa5819408c9f44029ae12d50d0a737cb",
             "https://opt-mainnet.g.alchemy.com/v2/FuB1I6CSbhXOS5ceLAKMV2RfDIXRLxlJ",
-            "https://mainnet.optimism.io",
-            "https://optimism-mainnet.infura.io/v3/19ff564de2494bf3a05f73de5ee66dd0"
+            "https://mainnet.optimism.io"
         ],
         "chainId": 10,
         "network": "optimism",
         "chunkSize": 100
     },
     "137": {
-        "rpc": "https://polygon-mainnet.infura.io/v3/19ff564de2494bf3a05f73de5ee66dd0",
+        "rpc": "https://polygon-mainnet.infura.io/v3/06cd959038214885ab8ba529e5482580",
         "fallbackRPCs": [
-            "https://polygon-mainnet.infura.io/v3/abb07c1db4584278920329997b99c584",
+            "https://polygon-mainnet.infura.io/v3/a55e8631a5b84f65919a3822ddc272b3",
             "https://polygon-mainnet.g.alchemy.com/v2/FuB1I6CSbhXOS5ceLAKMV2RfDIXRLxlJ",
             "https://polygon-rpc.com"
         ],
@@ -54,22 +54,22 @@ DEFAULT_RPCS = {
         "chunkSize": 100
     },
     "11155111": {
-        "rpc": "https://sepolia.infura.io/v3/06cd959038214885ab8ba529e5482580",
+        "rpc": "https://sepolia.infura.io/v3/abb07c1db4584278920329997b99c584",
         "fallbackRPCs": [
-            "https://1rpc.io/sepolia",
-            "https://sepolia.infura.io/v3/abb07c1db4584278920329997b99c584",
-            "https://eth-sepolia.g.alchemy.com/v2/FuB1I6CSbhXOS5ceLAKMV2RfDIXRLxlJ"
+            "https://sepolia.infura.io/v3/c4daeeec43844f4b9f39e149a5b81067",
+            "https://eth-sepolia.g.alchemy.com/v2/FuB1I6CSbhXOS5ceLAKMV2RfDIXRLxlJ",
+            "https://1rpc.io/sepolia"
         ],
         "chainId": 11155111,
         "network": "sepolia",
         "chunkSize": 100
     },
     "11155420": {
-        "rpc": "https://optimism-sepolia.infura.io/v3/a55e8631a5b84f65919a3822ddc272b3",
+        "rpc": "https://optimism-sepolia.infura.io/v3/b07b2d53814c4eb4a314242cbce8990a",
         "fallbackRPCs": [
+            "https://optimism-sepolia.infura.io/v3/dbbf73c09d5b4b4f9f9bca4bce33e88b",
             "https://opt-sepolia.g.alchemy.com/v2/FuB1I6CSbhXOS5ceLAKMV2RfDIXRLxlJ",
-            "https://endpoints.omniatech.io/v1/op/sepolia/public",
-            "https://optimism-sepolia.infura.io/v3/abb07c1db4584278920329997b99c584"  
+            "https://endpoints.omniatech.io/v1/op/sepolia/public"
         ],
         "chainId": 11155420,
         "network": "optimism-sepolia",
